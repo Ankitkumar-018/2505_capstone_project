@@ -9,24 +9,14 @@ a working prototype, and a proper GitHub submission, not just a notebook).
 
 ---
 
-## 1. How Each Capstone Covers the Syllabus
-
-| Syllabus Topic | Where it shows up |
-|---|---|
-| Week 1 — SQL (SELECT, WHERE, GROUP BY, HAVING, simple JOIN, basic subquery) | 5 SQL questions per project, including one subquery-based question |
-| Week 2 — Python, NumPy, Pandas | Loading, cleaning, and grouping the data in Pandas |
-| Week 3 — Descriptive stats, correlation, feature engineering, Linear Regression | Correlation check + one derived (engineered) feature per project; regression projects use Linear Regression as baseline |
-| Week 4 — Classification, model evaluation, overfitting, Prompt Engineering with LLMs | Classification projects use Logistic Regression as baseline; every project has an **optional** LLM-summary step |
-| IM Masterclass — Seaborn EDA, Tableau/Sheets, storytelling | 6–7 required Seaborn charts per project (including one relationship/correlation chart); Tableau/Sheets dashboard is an optional add-on |
-
-## 2. Project Details
+## 1. Project Details
 
 - **Difficulty:** Easy–Intermediate
 - **Duration:** 10 Days
 - **Mode:** Individual
 - **Tools:** Google Colab or Jupyter Notebook, SQLite (or any SQL playground), Python (Pandas, Seaborn, Scikit-learn), Git + GitHub, optional Streamlit
 
-## 3. Scope for Each Project
+## 2. Scope for Each Project
 
 - One clean, well-known public dataset.
 - **SQL:** `SELECT`, `WHERE`, `GROUP BY`, `HAVING`, a simple `JOIN` where relevant, and **one basic subquery** question. Still no CTEs or window functions — that stays for the SQL week itself.
@@ -35,7 +25,7 @@ a working prototype, and a proper GitHub submission, not just a notebook).
 - **Models: 3 models per project** — one baseline (Linear/Logistic Regression), one tree-based model (Decision Tree), and one ensemble model (Random Forest). This is the main difficulty bump versus a pure-beginner version.
 - **Prototype:** a Python prediction function is the minimum bar; a small **Streamlit app is strongly encouraged** (still optional, called out per project).
 
-## 4. Standard Project Flow
+## 3. Standard Project Flow
 
 ```mermaid
 flowchart TD
@@ -54,7 +44,7 @@ flowchart TD
     M --> N[Final Submission]
 ```
 
-## 5. Model Evaluation
+## 4. Model Evaluation
 
 **Regression:** report R², MAE, and RMSE. Include a predicted-vs-actual chart for the best model.
 
@@ -70,7 +60,7 @@ Comparison table (fill in after training):
 | Model 2 — Decision Tree | | | | |
 | Model 3 — Random Forest | | | | |
 
-## 6. 10-Day Execution Plan (template)
+## 5. 10-Day Execution Plan (template)
 
 | Day | Focus | Deliverable |
 |---|---|---|
@@ -87,7 +77,7 @@ Comparison table (fill in after training):
 
 ---
 
-## 7. GitHub Workflow (required)
+## 6. GitHub Workflow (required)
 
 Yes — every student must use GitHub for submission. Follow this workflow:
 
@@ -139,7 +129,7 @@ professional and is easy for a reviewer to navigate, not maximum complexity.
 
 ---
 
-## 8. Required Deliverables
+## 7. Required Deliverables
 
 1. **GitHub repository link** (public, following the structure above)
 2. Dataset file, or a documented download link if too large for GitHub
@@ -152,7 +142,7 @@ professional and is easy for a reviewer to navigate, not maximum complexity.
 9. Saved model file (`.pkl`)
 10. Working prediction function, or Streamlit app if attempted
 
-## 9. README Structure
+## 8. README Structure
 
 1. Project title and one-line problem statement
 2. Dataset used (name, link, size)
@@ -167,7 +157,7 @@ professional and is easy for a reviewer to navigate, not maximum complexity.
 11. Demo video link
 12. Team member name
 
-## 10. Presentation Structure (8–10 slides)
+## 9. Presentation Structure (8–10 slides)
 
 1. Title
 2. Problem Statement
@@ -180,13 +170,13 @@ professional and is easy for a reviewer to navigate, not maximum complexity.
 9. Business Recommendations
 10. Prototype Demo & Conclusion / Future Work
 
-## 11. Demo Video Expectations (5–7 minutes)
+## 10. Demo Video Expectations (5–7 minutes)
 
 Explain, in order: the problem, the dataset, the SQL questions and findings, the EDA insights, the
 models trained and why the best one was chosen, the business recommendation, and a live demo of the
 prediction function or Streamlit app.
 
-## 12. Submission Checklist
+## 11. Submission Checklist
 
 Before submitting, confirm every item is true:
 
@@ -231,7 +221,7 @@ completed days even if the full 10-day plan wasn't finished.
 
 ---
 
-## 13. Index of the 4 Capstones
+## 12. Index of the 4 Capstones
 
 | # | File | Domain | ML Task | Dataset |
 |---|---|---|---|---|

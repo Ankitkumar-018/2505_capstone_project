@@ -32,4 +32,4 @@ Individual. Every student submits their own repository.
 ## Submission
 
 Every project is submitted as a public GitHub repository + demo video, per the checklist in
-[00_common_guidelines.md](capstones/00_common_guidelines.md#12-submission-checklist).
+[00_common_guidelines.md](capstones/00_common_guidelines.md#11-submission-checklist).
