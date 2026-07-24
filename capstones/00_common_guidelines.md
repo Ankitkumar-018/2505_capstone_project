@@ -195,15 +195,13 @@ Before submitting, confirm every item is true:
 - [ ] `requirements.txt` present and accurate
 - [ ] Presentation (8–10 slides) attached
 - [ ] Demo video recorded and linked
-- [ ] Repo link + video link submitted through the course submission form / LMS by the deadline
+- [ ] Repo link submitted through the course submission form / LMS by the deadline
 
 ### How to Submit
 
-Submit the following in the course submission form (or as instructed by your mentor):
-
-1. GitHub repository link
-2. Demo video link
-3. One-paragraph summary of your business insight (pasted directly into the form)
+Submit only the GitHub repository link in the course submission form (or as instructed by your
+mentor). Everything else — dataset, notebook, README, slides, demo video link — must live inside
+the repo itself, not be submitted separately.
 
 Late/incomplete submissions should still include the GitHub link — partial credit is given for
 completed days even if the full 10-day plan wasn't finished.
